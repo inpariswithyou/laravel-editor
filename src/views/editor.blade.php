@@ -140,7 +140,7 @@
     });
 
     if ($.fn.mrUploader !== undefined && typeof $.fn.mrUploader === 'function') {
-        window.leUploader = $('#laravel-editor-upload-more').mrUploader({uploadUrl: '/upload', crop: false});
+        window.leUploader = $('#laravel-editor-upload-more').mrUploader({uploadUrl: '/upload', cropping: false});
         window.leUploader.on('upload', function(event, data) {
             image = $('<img />')
                 .attr('src', data.$image.attr('src'))
