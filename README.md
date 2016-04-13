@@ -10,7 +10,7 @@ and transforms content into a clean JSON to be delivered to mobile devices or cu
 ```json
 {
     "require": {
-        "vinelab/laravel-editor": "*"
+        "inpariswithyou/laravel-editor": "*"
     }
 }
 ```
